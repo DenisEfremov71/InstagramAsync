@@ -11,6 +11,7 @@
 		7288F18B2AD9BD2700DEDE8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288F18A2AD9BD2700DEDE8B /* ContentView.swift */; };
 		7288F18D2AD9BD2900DEDE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7288F18C2AD9BD2900DEDE8B /* Assets.xcassets */; };
 		7288F1902AD9BD2900DEDE8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7288F18F2AD9BD2900DEDE8B /* Preview Assets.xcassets */; };
+		72E02B1C2AD9C5C6005583C1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E02B1B2AD9C5C6005583C1 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7288F18A2AD9BD2700DEDE8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7288F18C2AD9BD2900DEDE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7288F18F2AD9BD2900DEDE8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72E02B1B2AD9C5C6005583C1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		7288F1A22AD9C38900DEDE8B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				72E02B1B2AD9C5C6005583C1 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				7288F18B2AD9BD2700DEDE8B /* ContentView.swift in Sources */,
 				7288F1892AD9BD2700DEDE8B /* InstagramAsyncApp.swift in Sources */,
+				72E02B1C2AD9C5C6005583C1 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
