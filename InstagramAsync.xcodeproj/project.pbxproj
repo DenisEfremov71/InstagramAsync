@@ -51,10 +51,14 @@
 		7288F1872AD9BD2700DEDE8B /* InstagramAsync */ = {
 			isa = PBXGroup;
 			children = (
-				7288F1882AD9BD2700DEDE8B /* InstagramAsyncApp.swift */,
-				7288F18A2AD9BD2700DEDE8B /* ContentView.swift */,
+				7288F19B2AD9C30900DEDE8B /* App */,
 				7288F18C2AD9BD2900DEDE8B /* Assets.xcassets */,
+				7288F18A2AD9BD2700DEDE8B /* ContentView.swift */,
+				7288F19A2AD9C30700DEDE8B /* Core */,
+				7288F1992AD9C30500DEDE8B /* Extensions */,
+				7288F1972AD9C2FA00DEDE8B /* Models */,
 				7288F18E2AD9BD2900DEDE8B /* Preview Content */,
+				7288F1962AD9C2E700DEDE8B /* Services */,
 			);
 			path = InstagramAsync;
 			sourceTree = "<group>";
@@ -65,6 +69,98 @@
 				7288F18F2AD9BD2900DEDE8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7288F1962AD9C2E700DEDE8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7288F1972AD9C2FA00DEDE8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7288F1992AD9C30500DEDE8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7288F19A2AD9C30700DEDE8B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7288F19C2AD9C34D00DEDE8B /* Authentication */,
+				7288F19D2AD9C36100DEDE8B /* Feed */,
+				7288F19E2AD9C36700DEDE8B /* Profile */,
+				7288F19F2AD9C36F00DEDE8B /* Root */,
+				7288F1A02AD9C37400DEDE8B /* Search */,
+				7288F1A22AD9C38900DEDE8B /* TabBar */,
+				7288F1A12AD9C38700DEDE8B /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7288F19B2AD9C30900DEDE8B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7288F1882AD9BD2700DEDE8B /* InstagramAsyncApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7288F19C2AD9C34D00DEDE8B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		7288F19D2AD9C36100DEDE8B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		7288F19E2AD9C36700DEDE8B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7288F19F2AD9C36F00DEDE8B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		7288F1A02AD9C37400DEDE8B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7288F1A12AD9C38700DEDE8B /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		7288F1A22AD9C38900DEDE8B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +376,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +406,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
