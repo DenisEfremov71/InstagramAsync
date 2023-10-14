@@ -17,26 +17,20 @@ struct LoginView: View {
 
                 Spacer()
 
+                // logo image
                 Image("instagram-logo-black")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 220, height: 100)
 
+                // text fields
                 VStack {
                     TextField("Enter your email", text: $email)
                         .autocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(IGTextFieldModifier())
 
                     SecureField("Enter your password", text: $password)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(IGTextFieldModifier())
                 }
 
                 Button {
@@ -53,7 +47,7 @@ struct LoginView: View {
                 Button {
                     print("Login")
                 } label: {
-                    Text("Log In")
+                    Text("Login")
                         .font(.subheadline)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -94,7 +88,8 @@ struct LoginView: View {
                 Divider()
 
                 NavigationLink {
-                    Text("Sign up")
+                    AddEmailView()
+                        .navigationBarBackButtonHidden()
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an acccount?")
