@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7250D7CD2ADB645C003DBBEB /* SignUpJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7250D7CC2ADB645C003DBBEB /* SignUpJourneyView.swift */; };
 		7288F1892AD9BD2700DEDE8B /* InstagramAsyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288F1882AD9BD2700DEDE8B /* InstagramAsyncApp.swift */; };
 		7288F18B2AD9BD2700DEDE8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288F18A2AD9BD2700DEDE8B /* ContentView.swift */; };
 		7288F18D2AD9BD2900DEDE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7288F18C2AD9BD2900DEDE8B /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7250D7CC2ADB645C003DBBEB /* SignUpJourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpJourneyView.swift; sourceTree = "<group>"; };
 		7288F1852AD9BD2700DEDE8B /* InstagramAsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramAsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7288F1882AD9BD2700DEDE8B /* InstagramAsyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAsyncApp.swift; sourceTree = "<group>"; };
 		7288F18A2AD9BD2700DEDE8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -201,8 +203,9 @@
 		72E02B1F2AD9D10E005583C1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				72E02B202AD9D135005583C1 /* UserStatView.swift */,
 				72E02B2C2ADACAE8005583C1 /* IGTextFieldModifier.swift */,
+				7250D7CC2ADB645C003DBBEB /* SignUpJourneyView.swift */,
+				72E02B202AD9D135005583C1 /* UserStatView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				7288F18B2AD9BD2700DEDE8B /* ContentView.swift in Sources */,
 				72E02B292ADA0EA1005583C1 /* LoginView.swift in Sources */,
 				7288F1892AD9BD2700DEDE8B /* InstagramAsyncApp.swift in Sources */,
+				7250D7CD2ADB645C003DBBEB /* SignUpJourneyView.swift in Sources */,
 				72E02B2B2ADAC650005583C1 /* AddEmailView.swift in Sources */,
 				72E02B2F2ADACC83005583C1 /* CreateUsernameView.swift in Sources */,
 				72E02B332ADAD3B8005583C1 /* CompleteSignUpView.swift in Sources */,
