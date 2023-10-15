@@ -11,7 +11,7 @@ import SwiftUI
 struct InstagramAsyncApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ContentView()
         }
     }
 }
