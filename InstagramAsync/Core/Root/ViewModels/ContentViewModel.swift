@@ -21,7 +21,9 @@ class ContentViewModel: ObservableObject {
 
     func setupSubscribers() {
         service.$userSession.sink { [weak self] userSession in
-            self?.userSession = userSession
+            DispatchQueue.main.async {
+                self?.userSession = userSession
+            }
         }
         .store(in: &cancellables)
     }

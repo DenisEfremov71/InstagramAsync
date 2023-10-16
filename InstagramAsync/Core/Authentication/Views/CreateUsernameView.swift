@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct CreateUsernameView: View {
-    @State private var username = ""
+    @EnvironmentObject var viewModel: RegistrationViewModel
 
     var body: some View {
         SignUpJourneyView(
-            text: $username,
+            text: $viewModel.username,
             title: "Create username",
             subtitle: "Pick a username for your new account. You can always change it later.",
             textFieldText: "Username"
@@ -24,4 +24,5 @@ struct CreateUsernameView: View {
 
 #Preview {
     CreateUsernameView()
+        .environmentObject(RegistrationViewModel())
 }
