@@ -11,6 +11,8 @@ import Firebase
 
 @MainActor
 class EditProfileViewModel: ObservableObject {
+    @Published var user: User
+
     @Published var fullname = ""
     @Published var bio = ""
     @Published var selectedImage: PhotosPickerItem? {
@@ -21,6 +23,10 @@ class EditProfileViewModel: ObservableObject {
         }
     }
     @Published var profileImage: Image?
+
+    init(user: User) {
+        self.user = user
+    }
 
     func loadImage(fromItem item: PhotosPickerItem?) async {
         guard let item = item else {
@@ -33,5 +39,25 @@ class EditProfileViewModel: ObservableObject {
             return
         }
         self.profileImage = Image(uiImage: uiImage)
+    }
+
+    func updateUserData() async throws {
+        var data = [String: Any]()
+
+        // update profile image id changed
+
+        // update name if changed
+        if !fullname.isEmpty && user.fullname != fullname {
+            data["fullname"] = fullname
+        }
+
+        // update bio if changed
+        if !bio.isEmpty && user.bio != bio {
+            data["bio"] = bio
+        }
+
+        if !data.isEmpty {
+            try await Firestore.firestore().collection("users").document(user.id).updateData(data)
+        }
     }
 }
