@@ -68,6 +68,7 @@
 		72E02B2F2ADACC83005583C1 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E02B2E2ADACC83005583C1 /* CreateUsernameView.swift */; };
 		72E02B312ADAD238005583C1 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E02B302ADAD238005583C1 /* CreatePasswordView.swift */; };
 		72E02B332ADAD3B8005583C1 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E02B322ADAD3B8005583C1 /* CompleteSignUpView.swift */; };
+		72E90FE82ADF424B00305F3A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E90FE72ADF424B00305F3A /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		72E02B2E2ADACC83005583C1 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 		72E02B302ADAD238005583C1 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		72E02B322ADAD3B8005583C1 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		72E90FE72ADF424B00305F3A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				7272205D2ADE178B00C7BB45 /* UserService.swift */,
+				72E90FE72ADF424B00305F3A /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				727220572ADD762100C7BB45 /* ContentViewModel.swift in Sources */,
 				7250D7D72ADCB156003DBBEB /* ProfileHeaderView.swift in Sources */,
 				72E02B2B2ADAC650005583C1 /* AddEmailView.swift in Sources */,
+				72E90FE82ADF424B00305F3A /* ImageUploader.swift in Sources */,
 				722850A72ADF297600C4DFE6 /* EditProfileViewModel.swift in Sources */,
 				72E02B2F2ADACC83005583C1 /* CreateUsernameView.swift in Sources */,
 				722850A12ADF1B0700C4DFE6 /* EditProfileView.swift in Sources */,
