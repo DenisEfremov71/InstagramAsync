@@ -16,8 +16,8 @@ struct ContentView: View {
             if contentVM.userSession == nil {
                 LoginView()
                     .environmentObject(registrationVM)
-            } else {
-                MainTabView()
+            } else if let currentUser = contentVM.currentUser {
+                MainTabView(user: currentUser)
             }
         }
     }
